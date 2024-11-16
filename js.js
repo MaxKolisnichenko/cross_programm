@@ -11,7 +11,7 @@ const getQuote = async () => {
   } catch (error) {
     console.error('Error fetching quote:', error);
   }
-};
+}
 
 newQuoteBtn.addEventListener('click', getQuote);
 
